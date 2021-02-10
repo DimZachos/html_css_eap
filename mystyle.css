@@ -1,0 +1,35 @@
+
+    .l {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;  
+    }
+
+    .nav-link, .nav-item {
+     width: 25%;
+     padding:1px 170px;
+	 
+    }
+	
+	@media all and (min-height:100px) {
+		
+	.navbar .nav-item .dropdown-menu{ display: none; position: absolute; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+	
+	
+
+
+   
+
+    
+
+   
+
+    table_color {
+      font-family: Tahoma;
+	  border-top: 0px;
+	}
+
+	
